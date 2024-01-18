@@ -1,0 +1,32 @@
+html, body, #root, .App {
+	margin: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden; /* spawns multiple vertical scrollbars if not only in '.body' */
+	/* overflow-y: hidden; */
+}
+
+::-webkit-scrollbar {          
+	background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-button {
+	width: 10px;
+	height: 40px;
+	color: black;
+}
+
+::-webkit-scrollbar-track {
+	/* background: rgba(253, 0, 0, 0.8); */
+	border-radius: 20px;
+	height: 20px;
+}
+
+::-webkit-scrollbar:horizontal{
+	display: none; /* not compatible with firefox - need another solution */
+	
+}
