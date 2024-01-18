@@ -29,7 +29,12 @@
 > **Conditional Rendering** - allows you to control what gets rendered in your application based on certain conditions (show, hide, or change components)
 
 ### Video 6 Notes - Rendering Lists
+
+
 ### Video 7 Notes - Click Events
+> onClick
+> onDoubleClick
+> Events(e)
 ### Video 8 Notes - Hooks: useState()
 ### Video 9 Notes - Event Handler: onChange()
 ### Video 10 Notes - Project: Color Picker App

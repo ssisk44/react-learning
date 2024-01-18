@@ -1,0 +1,10 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: hsla(20, 40%, 40%, 1);
+}
+
+img {
+	height: 50%;
+	width: 50%;
+}
