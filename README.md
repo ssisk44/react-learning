@@ -36,7 +36,9 @@
 > onDoubleClick
 > Events(e)
 ### Video 8 Notes - Hooks: useState()
+> useState allows for a stateful variable and setter function that store data and changes are reflected in the Virtual DOM 
 ### Video 9 Notes - Event Handler: onChange()
+> onChange is an event handler used mostly with forms that triggers a function every time input changes
 ### Video 10 Notes - Project: Color Picker App
 ### Video 11 Notes - Updater Functions
 ### Video 12 Notes - In State: Updating Objects
