@@ -41,8 +41,11 @@
 > onChange is an event handler used mostly with forms that triggers a function every time input changes
 ### Video 10 Notes - Project: Color Picker App
 ### Video 11 Notes - Updater Functions
+> An updater function is a function passed as an argument to set state, usually. React batches update statements for state after ..., you can only access current state unless using multiple states with the updater function (const [year, setYear] = ..., increment() { y => y + 1 })
 ### Video 12 Notes - In State: Updating Objects
+> A spread operator (...objectName) places all variables in the object into the containing code. Next you can redeclare variables in an array to overwrite existing ones and keep non overwritenvalues.
 ### Video 13 Notes - In State: Updating Arrays
+> Passing a parameter of '_' means ignore
 ### Video 14 Notes - In State: Updating Objects
 ### Video 15 Notes - Project: To Do List App
 ### Video 16 Notes - Hooks: useEffect()
