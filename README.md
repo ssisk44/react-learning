@@ -60,8 +60,27 @@
 > 4) Fetching Data from an API
 > 5) Clean up when a component unmounts
 
-### Video 17 Notes - Project: Digital Clock
+### Video 18 Notes - Hooks: useContext()
+> useContext() allows sharing of values from multiple component levels without props (prop drilling all the way down the component layers). Providers & Consumers of context. Read only?
 
+### Video 19 Notes - Hooks: useRef()
+> useState() => rerenders component when the state value changes
+
+> useRef() => does not cause rerenders on value change, use useRef() to remember information but not trigger rerenders
+
+> useRef only contains one value of current, can store html elements (ex. ref.current). Useful for accessing and interacting with DOM elements, handling focus, animations, transitions, handling timers, and handling intervals.
+
+> components render twice on mount in strict mode
+
+
+
+
+
+
+
+#
+#
+#
 ### Additional Notes
 #### Hooks -> https://react.dev/reference/react/hooks
 >State Hooks:
